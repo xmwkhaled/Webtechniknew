@@ -1,0 +1,119 @@
+body {
+    background-color: black;  /* Schwarzer Hintergrund */
+    color: white;             /* Weiße Schrift */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.greenback{
+    background-color: green; color: white;
+}
+.w3c{
+    text-transform: uppercase;
+}
+.html2{
+font-weight: bold; text-decoration: underline;
+}
+.CSS1{
+    background-color: blue; color: white;
+}
+
+
+a:link {
+    color: rgb(0, 17, 255); text-decoration: none;
+}
+a:visited {
+    color: rgb(47, 0, 255); 
+}
+a:hover {
+      text-transform: uppercase; text-decoration: underline;
+}
+a:active {
+    color: grey; 
+}
+
+.fett{
+    font-weight: bold;
+}
+
+.Tabellerot{
+    background-color: #FFDDDD
+    ;
+}
+.Tabelleblau{
+    background-color: #DDDDFF;
+    border-top: 2px dashed #000000;
+}
+.Titeltabelle{
+    background-color: #DDDDDD;
+    font-weight: bold;
+}
+.Tabellehead{
+    background-color:#DDFFDD ;
+    border-bottom: 2px dashed #000000;
+}
+td{
+    border:1px dashed #000000;
+}
+table{
+    border-collapse: collapse;
+}
+
+input[required] {
+    background-color:  #BBBBFF;
+}
+#Alter:valid {
+        background-color: green;
+}
+#Alter:invalid {
+        background-color: red;
+}
+input[list="Arbeitnehmende"] {
+    background-color: gray;
+    
+}
+label {
+    display: block;
+   
+}
+
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arbeitnehmende</title>
+    <link rel="stylesheet" href="stylers.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="Logo.jpg" alt="Logo Cinetix Media" width="100">
+        <h1>Was ist Marketing</h1>
+    </header>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="über uns.html">Über uns</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Dienstleistungen.html">Dienstleistungen</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <form>
+                <fieldset>
+                    <legend>Personalien</legend>
+
+                    <label for="Vorname">Vorname:</label>
+                    <input type="text" id="Vorname" name="Vorname" placeholder="Vorname eingeben" required>
+
+                    <label for="Nachname">Nachname:</label>
+                    <input type="text" id="Nachname" name="Nachname" placeholder="Nachname eingeben" required>
+
+                    <label for="Geschlecht">Geschlecht:</label>
+                    <select id="Geschlecht" name="Geschlecht" required>
+                        <option value="">Geschlecht wählen</option>
+                        <option value="weiblich">Weiblich</option>
+                        <option value="männlich">Männlich</option>
+                        <option value="anderes">Anderes</option>
+                    </select>
+
+                    <label for="Alter">Alter:</label>
+                    <input type="number" id="Alter" name="Alter" min="18" max="99" placeholder="Alter eingeben" required>
+
+                    <label for="Email">E-Mail:</label>
+                    <input type="email" id="Email" name="Email" placeholder="E-Mail eingeben" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Bewertung</legend>
+
+                    <label for="Arbeitnehmender">Arbeitnehmende:</label>
+                    <input list="Arbeitnehmende" id="Arbeitnehmender" name="Arbeitnehmender"
+                        placeholder="Arbeitnehmende auswählen" required>
+                    <datalist id="Arbeitnehmende">
+                        <option value="John Smith">Verkauf</option>
+                        <option value="Ella Harper">Verkauf</option>
+                        <option value="Charles Jackson">Verkauf</option>
+                        <option value="Wendy Smith">Lager</option>
+                        <option value="Anna Harper">Lager</option>
+                        <option value="Olivia Mason">Lager</option>
+                    </datalist>
+
+                    <p>Dienstleistungen:</p>
+                    <label><input type="checkbox" name="dienstleistungen" value="Beratung"> Beratung</label>
+                    <label><input type="checkbox" name="dienstleistungen" value="Reparatur"> Reparatur</label>
+                    <label><input type="checkbox" name="dienstleistungen" value="Produktkauf"> Produktkauf</label>
+
+                    <label for="Bewertung">Bewertung:</label>
+                    <select id="Bewertung" name="Bewertung" required>
+                        <option value="">Bewertung wählen</option>
+                        <option value="Sehr gut">Sehr gut</option>
+                        <option value="Gut">Gut</option>
+                        <option value="Durchschnitt">Durchschnitt</option>
+                        <option value="Schlecht">Schlecht</option>
+                    </select>
+
+                    <label for="Bemerkungen">Bemerkungen:</label>
+                    <textarea id="Bemerkungen" name="Bemerkungen" rows="5" placeholder="Bemerkungen eingeben"></textarea>
+                </fieldset>
+
+                <button type="submit">Absenden</button>
+            </form>
+        </main>
+    </div>
+
+    <footer>
+        <a href="Impressum.html">Impressum</a> | 
+        <a href="Datenschutz.html">Datenschutzerklärung</a>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,114 @@
+body {
+    background-color: black;  /* Schwarzer Hintergrund */
+    color: white;             /* Weiße Schrift */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Basis-Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background: #222;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #333;
+    padding: 20px;
+    width: 200px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    flex: 1;
+}
+
+/* Hauptbereich */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+a:hover {
+      text-transform: uppercase; text-decoration: underline;
+}
+
+
+.fett{
+    font-weight: bold;
+}
+
+.Tabellerot{
+    background-color: #FFDDDD
+    ;
+}
+.Tabelleblau{
+    background-color: #DDDDFF;
+    border-top: 2px dashed #000000;
+}
+.Titeltabelle{
+    background-color: #DDDDDD;
+    font-weight: bold;
+}
+.Tabellehead{
+    background-color:#DDFFDD ;
+    border-bottom: 2px dashed #000000;
+}
+td{
+    border:1px dashed #000000;
+}
+table{
+    border-collapse: collapse;
+}
+
+input[required] {
+    background-color:  #BBBBFF;
+}
+#Alter:valid {
+        background-color: green;
+}
+#Alter:invalid {
+        background-color: red;
+}
+input[list="Arbeitnehmende"] {
+    background-color: gray;
+    
+}
+label {
+    display: block;
+   
+}
